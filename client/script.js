@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
-
+// on render server address to swap https://pawchat.onrender.com/ - http://localhost:5000/
     const response = await fetch('https://pawchat.onrender.com/', {
         method: 'POST',
         headers: {
